@@ -1,0 +1,34 @@
+.main{
+  text-align: center;
+}
+
+.miniLogo{
+  width: 300px;
+}
+
+h3{
+  margin-top: 20px;
+  font-family: Rozha One;
+  font-weight: 700;
+}
+
+.input{
+  padding: 15px 30px;
+  border: 2px solid #E80038;
+  border-radius: 15px;
+  margin: 20px 20px;
+}
+
+.signIn{
+  margin: auto;
+  padding: 10px 50px;
+  font-weight: 700;
+  border: 3px solid;
+  border-radius: 50px;
+}
+
+#error{
+	width: 250px;
+	margin: 0 auto;
+	margin-bottom: 18px;
+}

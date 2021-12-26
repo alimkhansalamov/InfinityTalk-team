@@ -1,0 +1,55 @@
+.img {
+  width: 150px;
+  border: 2px solid grey;
+  text-align: center;
+}
+a {
+  color: white;
+  margin: 10px;
+  text-decoration-line: none;
+}
+a:hover {
+  color: white;
+}
+.Link {
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+  background-color: #e80038;
+  transition: 0.2s linear;
+  padding: 2px 0;
+  font-size: 1.25em;
+}
+.Link:hover {
+  background-color: #cb0330;
+  color: white;
+}
+.Link a {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.textContent {
+  font-family: Rozha One;
+  box-shadow: -6px -6px 8px -3px rgba(132, 153, 169, 0.2);
+  border-radius: 10px;
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.ikon {
+  width: 50px;
+}
+.ikon2 {
+  width: 40px;
+}
+.ikon3 {
+  width: 44px;
+}
+.imgBlock {
+  width: 200px;
+}
+/*.main {*/
+/*  display: flex;*/
+/*}*/

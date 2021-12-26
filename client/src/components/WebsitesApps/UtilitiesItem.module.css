@@ -1,0 +1,7 @@
+.button-danger:hover{
+  background-color: #E80038;
+}
+
+.cardShadow{
+  box-shadow: 0px 1px 8px 1px rgba(232, 0, 56, 0.2);
+}

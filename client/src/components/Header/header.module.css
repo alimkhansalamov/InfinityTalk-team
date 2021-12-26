@@ -1,0 +1,50 @@
+body {
+  font-family: 'Creepster', serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_blur {
+  filter: blur(2px);
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.findpartner,
+.websites,
+.messages {
+  margin-right: 15px;
+  width: 250px;
+  background-color: #e80038;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  line-height: 38px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.profileBlock {
+  padding: 0;
+  cursor: pointer;
+  background: none;
+}

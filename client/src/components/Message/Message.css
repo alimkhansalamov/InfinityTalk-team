@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  height: 650px;
+  border: 3px solid lightgray;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.chats-list {
+  width: 480px;
+  height: 100%;
+  background-color: #f8fbfb;
+  border-right: 3px solid lightgray;
+  overflow-y:scroll;
+}
+.chats-list::-webkit-scrollbar { width: 0; }
+.selected-chat-body {
+  height: 100%;
+  flex: 1;
+  background-color: white;
+}
+.chats-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-top: 3px;
+  gap: 10px;
+  padding-left: 20px;
+}
+.selected-chat-body {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: darksalmon;
+}
+.messages-container {
+  width: 100%;
+  margin-top: auto;
+  overflow-y:scroll;
+}
+.messages-container::-webkit-scrollbar { width: 0; }
+.input-container input {
+  padding: 0 12px;
+  flex: 1;
+  outline: none;
+  border: 1px solid lightgray;
+}
+.input-container input[disabled] {
+  background-color: lightgray;
+}
+.chats-item:hover {
+  cursor: pointer;
+  background-color: #ebeded;
+}
+.selected-chat {
+  background-color: #D0D5D5;
+}
+.message-cont {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+}
+.message {
+  min-width: 150px;
+  min-height: 40px;
+  max-width: 560px;
+  font-size: 18px;
+  padding: 8px;
+  background-color: #fffa8d;
+  border-radius: 4px;
+  word-break:break-all;
+  margin: 6px;
+  display: inline-block;
+}
+.my-msg {
+  margin-left: auto;
+  background-color: #90c3ff;
+}
+.img-locu {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.please-choose {
+  flex: 1;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 100px;
+  margin: auto;
+}
+.please-choose img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.search input {
+  height: 40px;
+  width: 92%;
+  border-radius: 6px;
+  outline: none;
+  padding: 12px;
+}
+.search {
+  width: 100%;
+  height: 60px;
+  background-color: cadetblue;
+  text-align: center;
+  line-height: 60px;
+}
+.emo-empty {
+  font-size: 200px;
+}
+.emo-wrap {
+  text-align: center;
+}
+.emo-empty span {
+  font-size: 20px;
+  line-height: 20px;
+}
+.partner-name {
+  font-weight: bold;
+}
+.no-messages {
+  padding-top: 100px;
+  flex: 1;
+  width: 100%;
+  text-align: center;
+}
+.no-messages img{
+  width: 300px;
+}
