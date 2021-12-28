@@ -26,9 +26,9 @@ InfinityTalk - web приложение, направленное на изуч�
 - <a href="https://github.com/Eltmirov">Eltmirov Hamzat</a>
 
 ### Демо версия web приложения:
-## <a href="https://infinity-talk.herokuapp.com/">click</a>
+## <a href="https://infinity-talk.herokuapp.com/">Click here to open</a>
 
-### Для запуска приложения:
+### Для запуска данного приложения::
 1. `https://github.com/SaydAliUsmanov/InfinityTalk-team.git`
 2. `npm i`
 3. `npm run dev`
